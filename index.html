@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <style>
       * {
         padding: 0;
@@ -82,7 +89,7 @@
         width: 32%;
         height: 300px;
       }
-      .img-from{
+      .img-from {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -91,7 +98,7 @@
         gap: 10px;
         color: white;
       }
-      .contact{
+      .contact {
         background-color: yellowgreen;
         padding: 100px;
         display: flex;
@@ -99,21 +106,21 @@
         justify-content: space-evenly;
         gap: 20px;
       }
-      form{
+      form {
         display: flex;
         flex-direction: column;
         gap: 10px;
         width: 50%;
         padding: 0 150px;
       }
-      input{
+      input {
         padding: 6px 10px;
         background-color: transparent;
         border: none;
         border-bottom: 2px solid rgb(42, 40, 40);
         outline: none;
       }
-      textarea{
+      textarea {
         padding: 6px 10px;
         background-color: transparent;
         border: none;
@@ -121,8 +128,9 @@
         outline: none;
         height: 50px;
       }
-      .contact-text{
+      .contact-text {
         width: 50%;
+        color: rgb(29, 27, 27);
       }
     </style>
   </head>
@@ -176,21 +184,30 @@
       </div>
     </div>
     <div class="img-from">
-        <h5>Image from Google</h5>
-        <button>LERN MORE</button>
+      <h5>Image from Google</h5>
+      <button>LERN MORE</button>
     </div>
     <div class="contact">
-        <form action="">
-            <input type="text" placeholder="Enter your name">
-            <input type="email" placeholder="Enter a valid email address">
-            <textarea name="" id=""></textarea>
-            <button>SUBMIT</button>
-        </form>
-        <div class="contact-text">
-            <h1>CONTACT US</h1>
-            <h3>+8805634756767</h3>
-            <h3>+8806748674586</h3>
+      <form action="">
+        <input type="text" placeholder="Enter your name" />
+        <input type="email" placeholder="Enter a valid email address" />
+        <textarea name="" id=""></textarea>
+        <button>SUBMIT</button>
+      </form>
+      <div class="contact-text">
+        <h1 style="margin-bottom: 16px">CONTACT US</h1>
+        <div>
+          <a href="https://www.facebook.com"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="https://x.com"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.instagram.com"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
         </div>
+        <h3 style="margin: 50px 0 8px 0">+8805634756767</h3>
+        <h3>+8806748674586</h3>
+      </div>
     </div>
   </body>
 </html>
